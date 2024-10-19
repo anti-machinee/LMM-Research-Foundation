@@ -1,8 +1,17 @@
+# credentials
+.env/.env.private
+
 # vscode
 .vscode
 
+# heavy folders/files
+checkpoints/*
+model_registry/*
+*.pth
+
 # local
 opensources
+tmp
 
 # compile
 __pycache__
